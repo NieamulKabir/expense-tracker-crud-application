@@ -17,6 +17,30 @@
       "type": "income",
       "amount": 205,
       "id": 3
+    },
+    {
+      "name": "Kabir",
+      "type": "income",
+      "amount": 12456,
+      "id": 4
+    },
+    {
+      "name": "fwe",
+      "amount": "2334",
+      "type": "income",
+      "id": 5
+    },
+    {
+      "name": "Buy Phone",
+      "type": "expense",
+      "amount": 20000,
+      "id": 6
+    },
+    {
+      "name": "fqwd",
+      "amount": "2242354",
+      "type": "income",
+      "id": 7
     }
   ]
 }
