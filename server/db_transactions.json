@@ -11,6 +11,12 @@
       "name": "Family Expenses",
       "type": "expense",
       "amount": 200000
+    },
+    {
+      "name": "sad",
+      "type": "income",
+      "amount": 205,
+      "id": 3
     }
   ]
 }
