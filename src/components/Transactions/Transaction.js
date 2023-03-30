@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux';
 import deleteImage from "../../assets/images/delete.svg";
 import editImage from "../../assets/images/edit.svg";
 import { editActive, removeTransaction } from '../../features/transaction/transactionSlice';
+import thousandSeparator from '../../utils/thousandSeparator'
 
 const Transaction = ({ transaction }) => {
     const { id,name, amount, type } = transaction || {};
@@ -20,7 +21,7 @@ const Transaction = ({ transaction }) => {
         <li className={`transaction ${type}`}>
             <p>{name}</p>
             <div className="right">
-                <p>৳ {amount}</p>
+                <p>৳ {thousandSeparator(amount)}</p>
                 <button className="link">
                     <img alt="Edit" onClick={handleEdit} className="icon" src={editImage} />
                 </button>
